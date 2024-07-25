@@ -1,0 +1,5 @@
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+  // Perform form submission tasks here, e.g., AJAX request
+  document.getElementById('successMessage').classList.remove('hidden');
+});
